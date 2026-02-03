@@ -97,6 +97,11 @@ The model generates convincing anime faces that demonstrate:
 - Different eye expressions
 - Realistic skin tones and lighting
 
+## Output Images
+
+- **samples.png** - Generated anime faces sampled after every 20 epochs during training, showing the progression and improvement of the generator over time
+- **final.png** - Final set of generated anime faces after completing all 100 epochs of training, representing the best quality results achieved by the model
+
 ## Training Progress
 
 - **Early epochs (1-20):** Generator learns basic face structure
