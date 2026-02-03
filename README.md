@@ -6,6 +6,9 @@ A deep learning project that generates realistic anime faces using a Deep Convol
 
 This project implements DCGAN to generate anime faces from random noise vectors. The model is trained on 10,000 images from the Anime Face Dataset (Kaggle), learning to produce convincing 64×64 RGB anime character faces.
 
+### Final Results
+![Final generated anime faces after complete training](final.png)
+
 **Key Achievements:**
 - Successfully trained a stable GAN over 100 epochs
 - Generated diverse, high-quality anime faces
@@ -97,10 +100,11 @@ The model generates convincing anime faces that demonstrate:
 - Different eye expressions
 - Realistic skin tones and lighting
 
-## Output Images
+## Demo - Generated Results
 
-- **samples.png** - Generated anime faces sampled after every 20 epochs during training, showing the progression and improvement of the generator over time
-- **final.png** - Final set of generated anime faces after completing all 100 epochs of training, representing the best quality results achieved by the model
+### Training Progress (Every 20 Epochs)
+![Training progression showing generated anime faces at different epochs](samples.png)
+
 
 ## Training Progress
 
@@ -154,5 +158,8 @@ Kelvin Ahiakpor
 - Kaggle for the anime face dataset
 - PyTorch community for excellent documentation
 - Course instructors for guidance on GAN training
+
+## Note
+See the AnimeGen.pdf for a discussion on project details like training and areas of improvement.  
 
 ---
